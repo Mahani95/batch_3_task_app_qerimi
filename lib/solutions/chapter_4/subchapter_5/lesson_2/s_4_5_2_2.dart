@@ -6,7 +6,6 @@ class S4522 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
         child: Column(
-      mainAxisAlignment: MainAxisAlignment.center,
       children: [
         const Text(
           'Hello Toni',
@@ -14,7 +13,7 @@ class S4522 extends StatelessWidget {
         ),
         ElevatedButton(
           onPressed: () {},
-          child: Text('Klick mich'),
+          child: const Text('Klick mich'),
         ),
       ],
     ));
