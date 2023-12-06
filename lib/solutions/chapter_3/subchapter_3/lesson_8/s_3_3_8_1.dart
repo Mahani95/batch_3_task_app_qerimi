@@ -10,7 +10,6 @@ int reverseNumber(int input) {
   }
 
   return turnedAround;
-
 }
 
 class S3381 extends StatefulWidget {
