@@ -43,7 +43,7 @@
         "editor.formatOnType": true
     },
     "git.openRepositoryInParentFolders": "always",
-    "workbench.colorTheme": "Community Material Theme Darker",
+    "workbench.colorTheme": "Ayu Dark",
     "workbench.colorCustomizations": {
         "[Community Material Theme Darker]": {
             "statusBar.debuggingBackground": "#1a6e74"

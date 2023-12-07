@@ -11,6 +11,7 @@ class S4522 extends StatelessWidget {
           'Hello Toni',
           style: TextStyle(fontSize: 24),
         ),
+        const SizedBox(height: 25),
         ElevatedButton(
           onPressed: () {},
           child: const Text('Klick mich'),

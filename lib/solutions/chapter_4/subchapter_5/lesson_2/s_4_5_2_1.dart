@@ -7,7 +7,7 @@ class S4521 extends StatelessWidget {
     return const Center(
       child: Text(
         'Hello World',
-        style: TextStyle(fontSize: 24),
+        style: TextStyle(fontSize: 35),
       ),
     );
   }
