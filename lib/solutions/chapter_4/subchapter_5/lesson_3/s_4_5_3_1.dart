@@ -5,24 +5,29 @@ class S4531 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    return Kasten();
+  }
+}
+
+class Kasten extends StatelessWidget {
+  const Kasten({super.key});
+
+  @override
+  Widget build(BuildContext context) {
     return Column(
       children: [
-        Container(
-          width: 100,
-          height: 100,
-          color: Colors.blueGrey,
-        ),
-        Container(
-          width: 100,
-          height: 100,
-          color: Colors.blue,
-        ),
-        Container(
-          width: 100,
-          height: 100,
-          color: Colors.cyan,
-        ),
+        coontainer(Colors.blueGrey),
+        coontainer(Colors.blue),
+        coontainer(Colors.cyan),
       ],
     );
   }
+}
+
+Widget coontainer(Color color) {
+  return Container(
+    width: 100,
+    height: 100,
+    color: color,
+  );
 }
