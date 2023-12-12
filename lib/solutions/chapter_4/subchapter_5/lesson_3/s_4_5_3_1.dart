@@ -5,7 +5,7 @@ class S4531 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Kasten();
+    return const Kasten();
   }
 }
 

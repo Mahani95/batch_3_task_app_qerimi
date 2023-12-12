@@ -16,7 +16,7 @@ class S4536 extends StatelessWidget {
       itemCount: products.length,
       itemBuilder: (context, index) {
         return ListTile(
-          leading: Icon(Icons.shopping_cart),
+          leading: const Icon(Icons.shopping_cart),
           title: Text(products[index].name),
           subtitle: Text('€${products[index].price.toStringAsFixed(2)}'),
         );

@@ -8,9 +8,11 @@ class S4535 extends StatelessWidget {
       child: Column(
         children: [
           Row(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [h(Colors.red), h(Colors.green)],
           ),
           Row(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [h(Colors.blue), h(Colors.yellow)],
           )
         ],

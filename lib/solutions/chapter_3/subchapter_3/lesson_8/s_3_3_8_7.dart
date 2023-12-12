@@ -6,11 +6,15 @@ import 'package:flutter/material.dart';
 /// This functions tries to hack a 4 digit PIN.
 /// It returns the PIN as a string.
 String hackPin() {
-  // Lösung hier einfügen
-  throw UnimplementedError();
+  for (int i = 0; i <= 9999; i++) {
+    String pin = i.toString();
+    if (_isPinCorrect(pin)) {
+      return pin;
+    }
+  }
+  return "ungültige eingabe";
 }
 
-// ignore: unused_element
 bool _isPinCorrect(String input) {
   final hashedInput = sha1.convert(utf8.encode(input)).toString();
   return hashedInput == _secretPinHashed;

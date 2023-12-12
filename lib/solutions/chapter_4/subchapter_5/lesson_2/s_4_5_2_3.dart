@@ -4,13 +4,15 @@ class S4523 extends StatelessWidget {
   const S4523({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
-    return Center(
+    return const Center(
       child: MyNameWidget(),
     );
   }
 }
 
 class MyNameWidget extends StatefulWidget {
+  const MyNameWidget({super.key});
+
   @override
   MyNameWidgetState createState() => MyNameWidgetState();
 }

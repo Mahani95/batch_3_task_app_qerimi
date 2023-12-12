@@ -1,8 +1,13 @@
 import 'package:flutter/material.dart';
 
 bool isAnagram(String word1, String word2) {
-  // Lösung hier einfügen
-  throw UnimplementedError();
+  String normalize(String word) {
+    return String.fromCharCodes(
+        word.toLowerCase().replaceAll(RegExp(r'\W'), '').runes.toList()
+          ..sort());
+  }
+
+  return normalize(word1) == normalize(word2);
 }
 
 class S3386 extends StatefulWidget {
