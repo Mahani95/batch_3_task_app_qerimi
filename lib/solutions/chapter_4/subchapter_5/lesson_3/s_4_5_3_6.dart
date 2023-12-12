@@ -5,13 +5,6 @@ class S4536 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final List<Product> products = [
-      Product(name: 'Apfel', price: 1.99),
-      Product(name: 'Brot', price: 2.50),
-      Product(name: 'Milch', price: 0.99),
-      Product(name: 'Käse', price: 3.49),
-      Product(name: 'Butter', price: 2.29),
-    ];
     return ListView.builder(
       itemCount: products.length,
       itemBuilder: (context, index) {

@@ -10,6 +10,7 @@ class S4533 extends StatelessWidget {
       color: Colors.blue,
       child: const Column(
         mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           Text("App"),
           Text("Akademie"),

@@ -9,16 +9,16 @@ class S4535 extends StatelessWidget {
         children: [
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
-            children: [h(Colors.red), h(Colors.green)],
+            children: [rec(Colors.red), rec(Colors.green)],
           ),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
-            children: [h(Colors.blue), h(Colors.yellow)],
-          )
+            children: [rec(Colors.blue), rec(Colors.yellow)],
+          ),
         ],
       ),
     );
   }
 }
 
-Widget h(Color color) => Container(height: 100, width: 100, color: color);
+Widget rec(Color color) => Container(height: 100, width: 100, color: color);
