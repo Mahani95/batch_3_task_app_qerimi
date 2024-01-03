@@ -23,23 +23,23 @@ class Quest5112 extends StatelessWidget {
             const SizedBox(
               height: 15,
             ),
-            headline("Name"),
-            foodline("Diana das Lama"),
+            _headline("Name"),
+            _footline("Diana das Lama"),
             const SizedBox(
               height: 15,
             ),
-            headline("Gewicht"),
-            foodline("120kg"),
+            _headline("Gewicht"),
+            _footline("120kg"),
             const SizedBox(
               height: 15,
             ),
-            headline("Größe"),
-            foodline("1,80m"),
+            _headline("Größe"),
+            _footline("1,80m"),
             const SizedBox(
               height: 15,
             ),
-            headline("Lieblingsessen"),
-            foodline("Gras"),
+            _headline("Lieblingsessen"),
+            _footline("Gras"),
           ],
         ),
       ),
@@ -47,11 +47,11 @@ class Quest5112 extends StatelessWidget {
   }
 }
 
-Widget headline(String text) {
+Widget _headline(String text) {
   return Text(text,
       style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold));
 }
 
-Widget foodline(String text) {
+Widget _footline(String text) {
   return Text(text, style: const TextStyle(fontSize: 20));
 }

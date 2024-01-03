@@ -24,7 +24,7 @@ class _Quest5111State extends State<Quest5111> {
         children: [
           const Text(
             "Hello World!",
-            style: TextStyle(color: Colors.grey, fontWeight: FontWeight.bold),
+            style: TextStyle(fontWeight: FontWeight.bold),
           ),
           const SizedBox(
             height: 35,
